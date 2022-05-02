@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "EcoCore/7.0.0.13714": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EcoCore/7.0.0.13714": {
+      "sha512": "5rfZmecp6PEZzw7Kam2ERaGjFvwtuyoQpWrComPXIYoVGH7SG9IbmNLLa1X4QWd79V9TZKDoYo3TfKIyFH2v0g==",
+      "type": "package",
+      "path": "ecocore/7.0.0.13714",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EcoCore.nuspec.org",
+        "ecocore.7.0.0.13714.nupkg.sha512",
+        "ecocore.nuspec",
+        "lib/net40/Eco.Handles.dll",
+        "lib/net40/Eco.Interfaces.dll",
+        "lib/net40/Eco.LinqExtender.dll",
+        "lib/net40/MDriven.Net.Http.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "EcoCore >= 7.0.0.13714"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Himezaki\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Himezaki\\Desktop\\Pacman-master\\PacmanProject\\PacmanProject.csproj",
+      "projectName": "PacmanProject",
+      "projectPath": "C:\\Users\\Himezaki\\Desktop\\Pacman-master\\PacmanProject\\PacmanProject.csproj",
+      "packagesPath": "C:\\Users\\Himezaki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Himezaki\\Desktop\\Pacman-master\\PacmanProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Himezaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "EcoCore": {
+            "target": "Package",
+            "version": "[7.0.0.13714, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'EcoCore 7.0.0.13714' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "EcoCore",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
